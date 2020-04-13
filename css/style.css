@@ -81,7 +81,6 @@ hr {
 }
 
 
-
 @media (min-width: 1200px){
 
 #nav-list a {
@@ -96,21 +95,17 @@ hr {
 	margin-bottom: 40px;
 	text-shadow: 1px 1px 1px #222;
 }
+
 .container {
     width: 1320px;
 }
+
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-	.container {
-    width: 1320px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-.container {
-    width: 1320px;
-}
+@media (min-width: 768px) {
+	.navbar-collapse.collapse.in {
+		border: 1px solid #8c8c8c;
+	}
 }
 
 @media (max-width: 767px) {
@@ -119,7 +114,6 @@ hr {
 		padding-right: 80px;
 	}
 }
-
 .row {
 	
 	position: relative;
@@ -153,4 +147,3 @@ p {
 	font-size: 16px;
 	color: #000000;
 }
-
