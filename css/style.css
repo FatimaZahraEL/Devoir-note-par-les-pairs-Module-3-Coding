@@ -102,7 +102,7 @@ hr {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 	.navbar-collapse.collapse.in {
 		border: 1px solid #8c8c8c;
 	}
