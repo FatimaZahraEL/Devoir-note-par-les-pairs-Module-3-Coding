@@ -108,7 +108,7 @@ hr {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.col-xs-12 {
 		padding-left: 80px;
 		padding-right: 80px;
